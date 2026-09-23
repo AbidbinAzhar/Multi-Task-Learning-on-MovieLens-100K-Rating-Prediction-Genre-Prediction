@@ -1604,7 +1604,7 @@ This project uses the **MovieLens-100K dataset** provided by the GroupLens Resea
 
 The multi-task learning formulation is inspired by the broader literature on shared representations and multi-task learning, including hard parameter sharing and uncertainty-based task weighting.
 
-Project Citation
+# Project Citation
 
 If you would like to cite this repository itself, use:
 
