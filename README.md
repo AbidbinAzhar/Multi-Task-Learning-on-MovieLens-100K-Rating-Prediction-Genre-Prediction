@@ -1551,16 +1551,44 @@ The project therefore serves not only as a recommendation model, but as a contro
 # Citation
 
 If you use the MovieLens dataset, please cite the original MovieLens publication:
+If you use this project, methodology, or experimental framework in academic or research work, please cite the relevant sources below.
 
-> F. Maxwell Harper and Joseph A. Konstan.
-> *The MovieLens Datasets: History and Context.*
-> ACM Transactions on Interactive Intelligent Systems, 5(4), Article 19, 2015.
+MovieLens-100K Dataset
+
+The MovieLens-100K dataset is provided by GroupLens Research at the University of Minnesota.
+
+Citation:
+
+F. Maxwell Harper and Joseph A. Konstan.
+“The MovieLens Datasets: History and Context.”
+ACM Transactions on Interactive Intelligent Systems, 5(4), Article 19, 2015.
+https://doi.org/10.1145/2827872
 
 Dataset:
 
-https://grouplens.org/datasets/movielens/
+https://grouplens.org/datasets/movielens/100k/
 
----
+Multi-Task Learning
+
+The hard parameter-sharing approach used in this project is based on the established multi-task learning framework in which multiple tasks share internal representations while maintaining task-specific output layers.
+
+Citation:
+
+Rich Caruana.
+“Multitask Learning.”
+Machine Learning, 28, 41–75, 1997.
+https://doi.org/10.1023/A:1007379606734
+
+Uncertainty-Based Task Weighting
+
+The optional uncertainty-based loss weighting implemented in this project follows the homoscedastic uncertainty formulation proposed for multi-task learning.
+
+Citation:
+
+Alex Kendall, Yarin Gal, and Roberto Cipolla.
+“Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.”
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
+https://doi.org/10.1109/CVPR.2018.00781
 
 # License
 
@@ -1575,3 +1603,9 @@ Please refer to the MovieLens dataset licensing and usage terms provided by Grou
 This project uses the **MovieLens-100K dataset** provided by the GroupLens Research Group at the University of Minnesota.
 
 The multi-task learning formulation is inspired by the broader literature on shared representations and multi-task learning, including hard parameter sharing and uncertainty-based task weighting.
+
+Project Citation
+
+If you would like to cite this repository itself, use:
+
+Azhar, A. B. (2026). Multi-Task Learning on MovieLens-100K: Rating Prediction and Genre Prediction. GitHub Repository.
